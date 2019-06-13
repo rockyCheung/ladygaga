@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Premain-Class: com.gwill.agent.LadyGGAPMAgent
+Agent-Class: com.gwill.agent.LadyGGAPMAgent
+Can-Redefine-Classes: true

@@ -1,0 +1,19 @@
+
+agent:
+  include:
+    - com.test
+  exculde:
+    - com.sun
+    - java
+    - net.bytebuddy.
+    - org.slf4j.
+    - org.apache.logging.
+    - org.groovy.
+    - javassist
+    - .asm.
+    - sun.reflect
+  exclude-class:
+    - .*EnhancerByCGLIB.*
+    - .*FastClassByCGLIB.*
+  log:
+    path: ladygg/
